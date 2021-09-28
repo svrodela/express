@@ -8,7 +8,7 @@ router.get('/',(req,res)=>{
 });
 
 router.get('/saludo',(req,res)=>{
-    res.send('Hola, este es el saludo')
+    res.send('Hola, este es el saludo desde express')
 });
 
 router.get('/login',(req,res)=>{
